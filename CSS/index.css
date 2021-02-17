@@ -48,6 +48,28 @@ ul {
     margin-left: auto;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
 /* Hero Image */
 .herolmg {
     height: 600px;
@@ -58,14 +80,21 @@ content {
     width: 500px;
     margin: 0 auto;
 }
+
+button {
+    background-color: pink;
+    color: black;
+    border: pink;
+}
 /* Footer */
-footer {
-    vertical-align:bottom;
-    flex-direction: row;
-    background-color: #373738;
-    padding: 1px;
-}
-li {
-    display: inline;
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: pink;
-}
+    text-align: center;
+    padding-bottom: 30px;
+ }
+ 
