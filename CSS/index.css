@@ -20,8 +20,20 @@
   }
   .column {
       float: left;
-      width: 50%;
       padding: 5px;
+  }
+
+  .header{
+    margin-bottom: 10px;
+  }
+
+  .logoo {
+    margin-left: 15%;
+  }
+
+  .ptext {
+    width: 80%;
+    margin: 10px;
   }
 .inlineblock {
     display:inline-block;
@@ -44,8 +56,21 @@ nav {
     margin-inline-start: 10%;
 }
 ul {
-    width: 50%;
-    margin-left: auto;
+    list-style-type: none;
+    width: 90%;
+    padding: 1%;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 1%;
+  color:pink; 
+}
+
+.row {
+  margin-left: 15%;
+  margin-top: 5%;
 }
 
 /* Add a black background color to the top navigation */
@@ -72,19 +97,15 @@ ul {
 
 /* Hero Image */
 .herolmg {
-    height: 600px;
-    padding: 25px
-}
-
-content {
-    width: 500px;
-    margin: 0 auto;
+border-radius: 25px;
+margin: 10px;
 }
 
 button {
     background-color: pink;
     color: black;
     border: pink;
+    border-radius: 25px;
 }
 /* Footer */
 
@@ -96,5 +117,14 @@ button {
     color: pink;
     text-align: center;
     padding-bottom: 30px;
+    height:auto;
  }
- 
+
+ .email {
+   color:black;
+ }
+
+ .linkss{
+  width: 100%;
+  justify-content: center;
+ }
